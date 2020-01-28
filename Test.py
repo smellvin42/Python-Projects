@@ -1,5 +1,7 @@
 a=3
 a**2 >= 9 and not a>3
+# prediction: true
+
 a+2 ==5 or a-1 !=3
 x, y = (325,325)
 
