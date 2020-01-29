@@ -26,16 +26,17 @@ report_grade(79)
 
 def vowel(letter):
     vowels="AEIOUaeiou"
-if: letter in vowels:
-    return True
+if letter in vowels:
+    print(True)
 else:
-    return False
+    print(False)
 
-vowel=(a)
+vowel(a)
 
-def letter_in_word(guess, word):
-  guess="howdyallHOWDYALL"
-  if : letter in letters
-       return True
+def letter_in_word(letter):
+  letter_in_word="howdyallHOWDYALL"
+  if  letter in letter_in_word
     print(true)
   else : return False print(false)
+
+letter_in_word(r)
