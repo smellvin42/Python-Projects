@@ -1,8 +1,9 @@
 a=3
 a**2 >= 9 and not a>3
-# prediction: true
+# prediction: false
 
 a+2 ==5 or a-1 !=3
+#Prediction: True
 x, y = (325,325)
 
 def age_limit_output(age):
@@ -23,19 +24,18 @@ report_grade(79)
 #a grade of 79 does not indicate mastery
 #Seek extra practice or help
 
-def vowel(Letter):
+def vowel(letter):
     vowels="AEIOUaeiou"
-if Letter in vowels:
+if: letter in vowels:
     return True
 else:
     return False
 
-vowel(a)
+vowel=(a)
 
 def letter_in_word(guess, word):
   guess="howdyallHOWDYALL"
   if : letter in letters
-      return True
-  else:
-      return False
-
+       return True
+    print(true)
+  else : return False print(false)
