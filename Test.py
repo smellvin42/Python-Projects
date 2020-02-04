@@ -83,4 +83,14 @@ def guess():
 
 def quiz_decimal(low, high):
     print('type a number between', low, 'and', high,)
-    input('Decimal')
+    decimal = input('Decimal')
+    if decimal > low:
+        if decimal < high:
+            print('Correct!', decimal, 'is between', low, 'and', high, )
+        else:
+            print(decimal, 'too high', decimal, 'is greater than', high,)
+    else:
+        print(decimal, 'too low,', decimal, 'is smaller than', low,)
+
+
+quiz_decimal(7, 13)
