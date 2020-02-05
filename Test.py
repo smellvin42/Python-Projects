@@ -55,18 +55,26 @@ def intiger(n):
 
 
 intiger(12)
+print('# -------------------------------------------------------------------------------------------------------------')
 
 
-def infer_once():
-    secret = random.randint(1, 4)
-    print('I have a number between 1 and 4.')
+print('# -------------------------------------------------------------------------------------------------------------')
+
+
+def infer_once(low, high):
+    secret = random.randint(low, high)
+    print('I have a number between', low, 'and', high,)
     infer = int(input('Guess: '))
     if infer != secret:
         print('Wrong, my number is ', secret, '.', sep='')
     else:
         print('Right, my number is', infer, end='!\n')
 
-# -------------------------------------------------------------------------------------------------------------
+
+infer_once(4, 7)
+
+
+print('# -------------------------------------------------------------------------------------------------------------')
 
 
 def guess():
@@ -81,9 +89,12 @@ def guess():
             print('too low! my number was', secret,)
 
 
+guess()
+
+
 def quiz_decimal(low, high):
     print('type a number between', low, 'and', high,)
-    decimal = input('Decimal')
+    decimal = float(input('Decimal'))
     if decimal > low:
         if decimal < high:
             print('Correct!', decimal, 'is between', low, 'and', high, )
