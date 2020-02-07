@@ -71,7 +71,7 @@ def infer_once(low, high):
         print('Right, my number is', infer, end='!\n')
 
 
-infer_once(4, 7)
+infer_once(4, 5)
 
 
 print('# -------------------------------------------------------------------------------------------------------------')
