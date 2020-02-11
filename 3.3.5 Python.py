@@ -39,4 +39,21 @@ print(len(activity))
 print(activity[0: len(activity)-1])
 
 print('------------------------------------------------------------------')
-def how_eligible(essay): v
+
+
+def how_eligible(essay):
+    n = ''
+    if '!' in essay:
+        n += 1
+    if '?' in essay:
+        n += 1
+    if '"' in essay:
+        n += 1
+    if ',' in essay:
+        n += 1
+    else:
+        print('This Essay is Ineligible')
+    print(len(n), 'your essay is eligible!')
+
+
+how_eligible('!sdxfwse?",,fkjgwer')
