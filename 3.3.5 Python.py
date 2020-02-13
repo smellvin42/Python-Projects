@@ -42,18 +42,18 @@ print('------------------------------------------------------------------')
 
 
 def how_eligible(essay):
-    n = ''
-    if '!' in essay:
+    n = 0
+    if "!" in essay:
         n += 1
-    if '?' in essay:
+    if "?" in essay:
         n += 1
-    if '"' in essay:
+    if "" in essay:
         n += 1
-    if ',' in essay:
+    if "," in essay:
         n += 1
     else:
         print('This Essay is Ineligible')
-    print(len(n), 'your essay is eligible!')
+    print(n, 'your essay is eligible!')
 
 
-how_eligible('!sdxfwse?",,fkjgwer')
+how_eligible('you Suck')
